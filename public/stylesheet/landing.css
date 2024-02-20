@@ -34,6 +34,12 @@ body {
   gap: 10px;
 }
 
+.smallCheckbox {
+  width: 15px;
+  height: 15px;
+  display: inline-block;
+  vertical-align: top;
+}
 .login {
   font-size: 1.2rem;
   margin: 20px 0 10px 0;

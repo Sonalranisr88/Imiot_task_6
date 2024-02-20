@@ -9,6 +9,9 @@ app.get("/", function (req, res) {
   res.render("landing");
 });
 
-app.listen(3001, function () {
+app.get("/signin", function (req, res) {
+  res.render("signin");
+});
+app.listen(3000, function () {
   console.log("The server has started.");
 });
